@@ -78,6 +78,7 @@ img {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-icon {
   display: flex;
@@ -250,8 +251,11 @@ img {
 /* Footer */
 .footer-board {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo-footer {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -259,13 +263,13 @@ img {
   color: #4d5ae5;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 .footer-end {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .logo-footer-span {
   color: #f4f4fd;
