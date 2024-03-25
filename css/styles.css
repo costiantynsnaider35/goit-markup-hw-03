@@ -41,17 +41,17 @@ body {
   color: #404bbf;
 }
 /* Main */
-.bord {
+.board {
   background-color: #2e2f42;
 }
-.bord-name {
+.board-name {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
 }
-.bord-button {
+.board-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -60,12 +60,12 @@ body {
   background-color: #4d5ae5;
   letter-spacing: 0.04em;
 }
-.bord-button:hover,
-.bord-button:focus {
+.board-button:hover,
+.board-button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
-.team-bord-name {
+.team-board-name {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -74,7 +74,7 @@ body {
   color: #2e2f42;
   background-color: #f4f4fd;
 }
-.team-bord-element {
+.team-board-element {
   background-color: #fff;
 }
 .team-list {
