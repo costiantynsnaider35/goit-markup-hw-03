@@ -32,10 +32,17 @@ img {
   padding: 0 15px;
 }
 /*--------------- Header-------------*/
-.header-container {
-  display: flex;
+.header-boarder {
+  border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.header-container {
+  display: flex;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -83,13 +90,6 @@ img {
 .contacts-title:hover,
 .contacts-title:focus {
   color: #404bbf;
-}
-.header-boarder {
-  border-bottom: 1px solid #e7e9fc;
-}
-.header-navigation {
-  display: flex;
-  align-items: center;
 }
 /*------------Main----------------*/
 /* Section1 */
