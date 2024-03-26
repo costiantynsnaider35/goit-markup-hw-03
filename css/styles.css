@@ -34,11 +34,10 @@ img {
 /*--------------- Header-------------*/
 .header-boarder {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 .header-navigation {
   display: flex;
@@ -64,6 +63,7 @@ img {
   color: #2e2f42;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 .menu:hover,
 .menu:focus {
